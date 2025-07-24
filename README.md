@@ -23,7 +23,7 @@ This project contains automated end-to-end test cases for [Parabank](https://par
 | `faker-utils`         | Used in: `registration.cy.js`                                                                                   |
 | **Page Object Model** | Used in: `logout.cy.js`                                                                                         |
 | **Custom Commands**   | Used in all Cypress files except `registration.cy.js` and `logout.cy.js` (defined in `commands.js`)             |
-| **NPM scripts**       | Used in: `package.json`                                                                                         |
+| **NPM scripts**       | Used in: `package.json`                                                                                         | 
 
 ### Running the Tests
 To run the tests, enter the following lines in the Command Line Interface (Terminal):
