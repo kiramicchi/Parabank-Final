@@ -1,0 +1,51 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "swagger-headed": "npx cypress run --spec 'cypress/e2e/swagger/user_apicodes.cy.js' --browser chrome --headed",
+    "swagger-headless": "npx cypress run --spec 'cypress/e2e/swagger/user_apicodes.cy.js'",
+
+    "registration-headed": "npx cypress run --spec 'cypress/e2e/registration.cy.js' --browser chrome --headed",
+    "registration-headless": "npx cypress run --spec 'cypress/e2e/registration.cy.js'",
+
+    "register-headed": "npx cypress run --spec 'cypress/e2e/parabank/register.cy.js' --browser chrome --headed",
+    "register-headless": "npx cypress run --spec 'cypress/e2e/parabank/register.cy.js'",
+
+    "overview-headed": "npx cypress run --spec 'cypress/e2e/parabank/overview.cy.js' --browser chrome --headed",
+    "overview-headless": "npx cypress run --spec 'cypress/e2e/parabank/overview.cy.js'",
+
+    "open-account-headed": "npx cypress run --spec 'cypress/e2e/parabank/openaccount.cy.js' --browser chrome --headed",
+    "open-account-headless": "npx cypress run --spec 'cypress/e2e/parabank/openaccount.cy.js'",
+
+    "transfer-headed": "npx cypress run --spec 'cypress/e2e/parabank/transferfunds.cy.js' --browser chrome --headed",
+    "transfer-headless": "npx cypress run --spec 'cypress/e2e/parabank/transferfunds.cy.js'",
+
+    "billpay-headed": "npx cypress run --spec 'cypress/e2e/parabank/billpay.cy.js' --browser chrome --headed",
+    "billpay-headless": "npx cypress run --spec 'cypress/e2e/parabank/billpay.cy.js'",
+
+    "findtransac-headed": "npx cypress run --spec 'cypress/e2e/parabank/findtransactions.cy.js' --browser chrome --headed",
+    "findtransac-headless": "npx cypress run --spec 'cypress/e2e/parabank/findtransactions.cy.js'",
+
+    "updateinfo-headed": "npx cypress run --spec 'cypress/e2e/parabank/updateinfo.cy.js' --browser chrome --headed",
+    "updateinfo-headless": "npx cypress run --spec 'cypress/e2e/parabank/updateinfo.cy.js'",
+
+    "requestloan-headed": "npx cypress run --spec 'cypress/e2e/parabank/requestloan.cy.js' --browser chrome --headed",
+    "requestloan-headless": "npx cypress run --spec 'cypress/e2e/parabank/requestloan.cy.js'",
+
+    "logout-headed": "npx cypress run --spec 'cypress/e2e/parabank/logout.cy.js' --browser chrome --headed",
+    "logout-headless": "npx cypress run --spec 'cypress/e2e/parabank/logout.cy.js'"
+  },
+  "author": "Faye Abusaman",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.5.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "cypress-downloadfile": "^1.2.4",
+    "cypress-mochawesome-reporter": "^4.0.0",
+    "cypress-plugin-api": "^2.11.2"
+  }
+}
