@@ -56,17 +56,18 @@ To run the tests, enter the following lines in the Command Line Interface (Termi
 
 ### Features
 
-| Feature            | Description                     | File/s                                        |
-| ------------------ | ------------------------------- | ------------------------ ---------------------|
-| Registration       | Register a new user             | `registration.cy.js` and `register.cy.js`     |
-| Open Account       | Open a new bank account         | `openaccount.cy.js`                           |
-| Overview           | Account overview                | `overview.cy.js`                              |
-| Update Info        | Update user profile             | `updateinfo.cy.js`                            |
-| Transfer Funds     | Transfer money between accounts | `transferfunds.cy.js`                         |
-| Bill Pay           | Pay bills using bank account    | `billpay.cy.js`                               |
-| Find Transaction   | Find transactions by criteria   | `findtransactions.cy.js`                      |
-| Loan Request       | Submit a loan application       | `requestloan.cy.js`                           |
-| Logout             | User login and logout           | `logout.cy.js`                                |
+| Feature            | Description                     | File(s)                                      |
+|--------------------|----------------------------------|----------------------------------------------|
+| Registration       | Register a new user             | `registration.cy.js`, `register.cy.js`       |
+| Open Account       | Open a new bank account         | `openaccount.cy.js`                          |
+| Overview           | Account overview                | `overview.cy.js`                             |
+| Update Info        | Update user profile             | `updateinfo.cy.js`                           |
+| Transfer Funds     | Transfer money between accounts | `transferfunds.cy.js`                        |
+| Bill Pay           | Pay bills using bank account    | `billpay.cy.js`                              |
+| Find Transaction   | Find transactions by criteria   | `findtransactions.cy.js`                     |
+| Loan Request       | Submit a loan application       | `requestloan.cy.js`                          |
+| Logout             | User login and logout           | `logout.cy.js`                               |
+
 
 ### Notes
 - `registration.cy.js` and `register.cy.js` are different files.
